@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=TDL GUI
+Comment=Telegram Downloader GUI
+Exec=tdl-gui
+Icon=telegram
+Terminal=false
+Type=Application
+Categories=Network;FileTransfer;
+

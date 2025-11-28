@@ -1,0 +1,97 @@
+TDL GUI - READ THIS FIRST
+=========================
+
+this is a gui for tdl telegram downloader
+click buttons instead of typing commands
+
+
+QUICK INSTALL
+-------------
+double click the installer for your system
+
+LINUX   - right click INSTALL-LINUX.sh and select run as program
+          or open terminal in this folder and run ./INSTALL-LINUX.sh
+
+WINDOWS - double click INSTALL-WINDOWS.bat
+
+MAC     - double click INSTALL-MAC.command
+          if it says unidentified developer right click and select open
+
+
+AFTER INSTALL YOU MUST LOGIN
+----------------------------
+open a terminal or command prompt and run
+
+tdl login
+
+this only needs to be done once
+it saves your session for future use
+
+
+HOW TO OPEN THE APP
+-------------------
+LINUX
+- open terminal and type tdl-gui then press enter
+- OR find TDL GUI in your applications menu and click it
+- a window will pop up thats the app
+
+WINDOWS
+- go to the folder where you ran the installer
+- double click tdl-gui.exe
+- a window will pop up thats the app
+
+MAC
+- go to the folder where you ran the installer
+- double click tdl-gui
+- a window will pop up thats the app
+
+
+HOW TO CLOSE THE APP
+--------------------
+click the X button on the window
+or press alt+f4 on linux/windows
+or cmd+q on mac
+
+
+IF NOTHING HAPPENS WHEN YOU TYPE tdl-gui
+----------------------------------------
+this means it didnt install correctly
+try running the installer again
+make sure you see "INSTALLATION COMPLETE" at the end
+if you get errors paste them into chatgpt
+
+
+HOW TO USE THE APP
+------------------
+SESSION     - check if logged in
+DOWNLOAD    - paste telegram links pick save folder
+UPLOAD      - pick files send to saved messages or a chat
+FORWARD     - forward messages between chats
+BACKUP      - backup account data
+RECOVER     - restore from backup
+LIST CHATS  - shows your chats
+VERSION     - shows tdl version
+
+
+TROUBLESHOOTING
+---------------
+nothing happens when i type tdl-gui
+    the installer didnt finish run it again
+
+command not found
+    run sudo mv tdl-gui /usr/local/bin/
+
+gui opens but login fails
+    thats normal login via terminal first with tdl login
+
+opengl errors on linux
+    run sudo apt-get install -y libgl1-mesa-dev xorg-dev libxxf86vm-dev
+
+database used by another process
+    close telegram desktop and any other terminal running tdl
+
+
+STILL NOT WORKING?
+------------------
+copy this entire document and paste it into chatgpt or claude
+tell it what error you got and it will help you fix it
